@@ -19,3 +19,57 @@ body{
     font-family: 'Poppins', sans-serif;
     color: black;
 }
+
+/* ------------banner ---------- */
+.banner{
+    background: #C1DCDC;
+    height: 512px;
+    border-radius: 24px;
+}
+
+#Banner{
+    margin-top: 48px;
+}   
+
+.contentPart h1 {
+    color: black;
+    width: 512px;
+    font-size: 64px;
+    font-weight: bold;
+    font-family: poppins, sans-serif;
+    margin-bottom: 24px;
+}
+
+.contentPart{
+    padding-top: 48px;
+    padding-left: 48px;
+}
+
+.plantCounter {
+    display: flex;
+    gap: 48px;
+}
+
+
+.plant h3{
+    font-size: 32px;
+    font-weight: medium;
+    font-family: poppins, sans-serif;
+}
+.plant p{
+    font-size: 32px;
+    font-weight: medium;
+    font-family: poppins, sans-serif;
+}
+
+.Customer h3{
+    font-size: 32px;
+    font-weight: medium;
+    font-family: poppins, sans-serif;
+}
+.customer p{
+    font-size: 32px;
+    font-weight: medium;
+    font-family: poppins, sans-serif;
+}
+
