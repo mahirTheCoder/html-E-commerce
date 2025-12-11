@@ -1,75 +1,104 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-ul , li{
-    list-style: none;
-}
-
-img{
-    max-width: 100%;
+ul,
+li {
+  list-style: none;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
-    color: black;
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: black;
 }
 
 /* ------------banner ---------- */
-.banner{
-    background: #C1DCDC;
-    height: 512px;
-    border-radius: 24px;
+.banner {
+  background: #c1dcdc;
+  height: 512px;
+  border-radius: 24px;
 }
 
-#Banner{
-    margin-top: 48px;
-}   
+#Banner {
+  margin-top: 48px;
+}
 
 .contentPart h1 {
-    color: black;
-    width: 512px;
-    font-size: 64px;
-    font-weight: bold;
-    font-family: poppins, sans-serif;
-    margin-bottom: 24px;
+  color: black;
+  width: 512px;
+  font-size: 64px;
+  font-weight: bold;
+  font-family: poppins, sans-serif;
+  margin-bottom: 24px;
 }
 
-.contentPart{
-    padding-top: 48px;
-    padding-left: 48px;
+.contentPart {
+  padding-top: 48px;
+  padding-left: 48px;
 }
 
 .plantCounter {
-    display: flex;
-    gap: 48px;
+  display: flex;
+  gap: 48px;
 }
 
-
-.plant h3{
-    font-size: 32px;
-    font-weight: medium;
-    font-family: poppins, sans-serif;
+.plant h3 {
+  font-size: 32px;
+  font-weight: medium;
+  font-family: poppins, sans-serif;
 }
-.plant p{
-    font-size: 32px;
-    font-weight: medium;
-    font-family: poppins, sans-serif;
-}
-
-.Customer h3{
-    font-size: 32px;
-    font-weight: medium;
-    font-family: poppins, sans-serif;
-}
-.customer p{
-    font-size: 32px;
-    font-weight: medium;
-    font-family: poppins, sans-serif;
+.plant p {
+  font-size: 32px;
+  font-weight: medium;
+  font-family: poppins, sans-serif;
 }
 
+.Customer h3 {
+  font-size: 32px;
+  font-weight: medium;
+  font-family: poppins, sans-serif;
+}
+.customer p {
+  font-size: 32px;
+  font-weight: medium;
+  font-family: poppins, sans-serif;
+}
+
+.InputItems {
+  width: 449px;
+  height: 64px;
+  background: #fff;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.InputItems button {
+    width: 64px;
+    height: 60px;
+  border: none;
+  margin-right: 8px;
+  background: #c1dcdc;
+  border-radius: 20%;
+}
+
+.InputItems input {
+  border: none;
+  outline: none;
+  padding-left: 16px;
+  font-size: 16px;
+  font-family: poppins, sans-serif;
+  width: 80%;
+  height: 100%;
+  border-radius: 6px;
+}
