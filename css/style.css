@@ -113,4 +113,12 @@ body {
   height: 400px;
   position: absolute;
   bottom: -15px;
+
+}
+
+.imgPart img{
+  width: 411px;
+  height: 531px;
+  position: absolute;
+  bottom: 0;
 }
