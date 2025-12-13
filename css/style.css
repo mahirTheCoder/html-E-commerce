@@ -30,6 +30,8 @@ body {
 
 #Banner {
   margin-top: 48px;
+  position: relative;
+  overflow: hidden;
 }
 
 .contentPart h1 {
@@ -84,8 +86,8 @@ body {
 }
 
 .InputItems button {
-    width: 64px;
-    height: 60px;
+  width: 64px;
+  height: 60px;
   border: none;
   margin-right: 8px;
   background: #c1dcdc;
@@ -101,4 +103,14 @@ body {
   width: 80%;
   height: 100%;
   border-radius: 6px;
+}
+
+/* ----------img part------- */
+
+.bgImg {
+  background-image: url(../img/Rectangle\ 2.png);
+  width: 450px;
+  height: 400px;
+  position: absolute;
+  bottom: -15px;
 }
