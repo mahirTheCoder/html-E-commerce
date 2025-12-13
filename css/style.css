@@ -160,6 +160,10 @@ body {
 }
 
 .about-icon i {
-  font-size: 26px;
+  font-size: 30px;
   color: #2f4f4f;
+}
+
+.about-item p {
+  width: 400px;
 }
