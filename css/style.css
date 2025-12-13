@@ -143,3 +143,23 @@ body {
   border-radius: 6px;
   padding: 10px 20px;
 }
+
+/* --------about us section -------- */
+.about-item {
+  padding: 10px;
+}
+
+.about-icon {
+  width: 64px;
+  height: 64px;
+  background: #cfe3e3;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-icon i {
+  font-size: 26px;
+  color: #2f4f4f;
+}
